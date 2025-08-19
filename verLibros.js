@@ -4,7 +4,7 @@ const { ethers } = require("ethers");
 
 // --- CONFIGURACIÓN ---
 const GANACHE_URL = "http://127.0.0.1:7545";
-const CONTRACT_ADDRESS = "0x0418Bdb92B86Bfa73760C940AdC8D2C49B7D6376"; // ⚠️ ¡Verifica que esta sea tu dirección! de tu contrato
+const CONTRACT_ADDRESS = "0x9556A256c71B7cb4Cd9227e6F5453AC10047E271"; // ⚠️ ¡Verifica que esta sea tu dirección! de tu contrato
 const contractABI = require("./artifacts/contracts/LibroStorage.sol/LibroStorage.json").abi;
 
 // Nos conectamos a la blockchain
